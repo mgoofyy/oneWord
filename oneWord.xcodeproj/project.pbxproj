@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2018CD8C4C5F9E14D4391AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB61B770DBE51C60A1CD8D9C /* libPods.a */; };
+		FCE5F49F1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5F49E1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.m */; };
 		FCEC41E01CDB9B78007F8F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41DF1CDB9B78007F8F73 /* main.m */; };
 		FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41E21CDB9B78007F8F73 /* AppDelegate.m */; };
 		FCEC41EB1CDB9B78007F8F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEC41EA1CDB9B78007F8F73 /* Assets.xcassets */; };
@@ -16,6 +18,7 @@
 		FCEC42181CDB9F75007F8F73 /* GFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC42171CDB9F75007F8F73 /* GFTabBarViewController.m */; };
 		FCEC421B1CDBA04C007F8F73 /* GFHomeContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC421A1CDBA04C007F8F73 /* GFHomeContentViewController.m */; };
 		FCEC421F1CDBA334007F8F73 /* UIView+GFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC421E1CDBA334007F8F73 /* UIView+GFExtension.m */; };
+		FCEC42251CDBA9D2007F8F73 /* GFContentSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC42241CDBA9D2007F8F73 /* GFContentSortViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99ECDC98EDF8ADD3D0763CB8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BDCFED3EC03D53901732E0C6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DB61B770DBE51C60A1CD8D9C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE5F49D1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GFCornerRadis.h"; sourceTree = "<group>"; };
+		FCE5F49E1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GFCornerRadis.m"; sourceTree = "<group>"; };
 		FCEC41DB1CDB9B78007F8F73 /* oneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEC41DF1CDB9B78007F8F73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCEC41E11CDB9B78007F8F73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +65,8 @@
 		FCEC421E1CDBA334007F8F73 /* UIView+GFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GFExtension.m"; sourceTree = "<group>"; };
 		FCEC42201CDBA39A007F8F73 /* GFCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFCategoryHeader.h; sourceTree = "<group>"; };
 		FCEC42221CDBA3F3007F8F73 /* GFPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFPrefixHeader.pch; sourceTree = "<group>"; };
+		FCEC42231CDBA9D2007F8F73 /* GFContentSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFContentSortViewController.h; sourceTree = "<group>"; };
+		FCEC42241CDBA9D2007F8F73 /* GFContentSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFContentSortViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2018CD8C4C5F9E14D4391AB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A030DA9E825CA0D69E7AF7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB61B770DBE51C60A1CD8D9C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE23C209773930DAACE000AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFED3EC03D53901732E0C6 /* Pods.debug.xcconfig */,
+				99ECDC98EDF8ADD3D0763CB8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FCEC41D21CDB9B78007F8F73 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +119,8 @@
 				FCEC41F71CDB9B78007F8F73 /* oneWordTests */,
 				FCEC42021CDB9B78007F8F73 /* oneWordUITests */,
 				FCEC41DC1CDB9B78007F8F73 /* Products */,
+				BE23C209773930DAACE000AB /* Pods */,
+				3A030DA9E825CA0D69E7AF7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +184,8 @@
 			children = (
 				FCEC421D1CDBA334007F8F73 /* UIView+GFExtension.h */,
 				FCEC421E1CDBA334007F8F73 /* UIView+GFExtension.m */,
+				FCE5F49D1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.h */,
+				FCE5F49E1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.m */,
 				FCEC42201CDBA39A007F8F73 /* GFCategoryHeader.h */,
 			);
 			name = Category;
@@ -180,6 +212,8 @@
 		FCEC42151CDB9EB6007F8F73 /* ContentSort */ = {
 			isa = PBXGroup;
 			children = (
+				FCEC42231CDBA9D2007F8F73 /* GFContentSortViewController.h */,
+				FCEC42241CDBA9D2007F8F73 /* GFContentSortViewController.m */,
 			);
 			name = ContentSort;
 			sourceTree = "<group>";
@@ -206,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEC42081CDB9B78007F8F73 /* Build configuration list for PBXNativeTarget "oneWord" */;
 			buildPhases = (
+				78FF01B692A282CBBEF73041 /* Check Pods Manifest.lock */,
 				FCEC41D71CDB9B78007F8F73 /* Sources */,
 				FCEC41D81CDB9B78007F8F73 /* Frameworks */,
 				FCEC41D91CDB9B78007F8F73 /* Resources */,
+				AD693C0A2BBF67DB24DAD35B /* Embed Pods Frameworks */,
+				3C3CBF96144D13666043C8AA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,14 +364,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C3CBF96144D13666043C8AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78FF01B692A282CBBEF73041 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD693C0A2BBF67DB24DAD35B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCEC41D71CDB9B78007F8F73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FCEC421F1CDBA334007F8F73 /* UIView+GFExtension.m in Sources */,
+				FCE5F49F1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.m in Sources */,
 				FCEC421B1CDBA04C007F8F73 /* GFHomeContentViewController.m in Sources */,
 				FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */,
+				FCEC42251CDBA9D2007F8F73 /* GFContentSortViewController.m in Sources */,
 				FCEC42181CDB9F75007F8F73 /* GFTabBarViewController.m in Sources */,
 				FCEC41E01CDB9B78007F8F73 /* main.m in Sources */,
 			);
@@ -467,6 +554,7 @@
 		};
 		FCEC42091CDB9B78007F8F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDCFED3EC03D53901732E0C6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/GFPrefixHeader.pch";
@@ -480,6 +568,7 @@
 		};
 		FCEC420A1CDB9B78007F8F73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99ECDC98EDF8ADD3D0763CB8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/GFPrefixHeader.pch";
@@ -556,6 +645,7 @@
 				FCEC420A1CDB9B78007F8F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCEC420B1CDB9B78007F8F73 /* Build configuration list for PBXNativeTarget "oneWordTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +654,7 @@
 				FCEC420D1CDB9B78007F8F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCEC420E1CDB9B78007F8F73 /* Build configuration list for PBXNativeTarget "oneWordUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +663,7 @@
 				FCEC42101CDB9B78007F8F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

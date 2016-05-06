@@ -8,6 +8,7 @@
 
 #import "GFTabBarViewController.h"
 #import "GFHomeContentViewController.h"
+#import "GFContentSortViewController.h"
 
 @implementation GFTabBarViewController
 
@@ -21,11 +22,16 @@
     homeVC.tabBarItem.title = @"内容";
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:homeVC];
     [self addChildViewController:nav];
+    
+    GFContentSortViewController *contentVC = [[GFContentSortViewController alloc] init];
+    homeVC.tabBarItem.title = @"内容";
+    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:contentVC];
+    [self addChildViewController:nav2];
 }
 
 - (void)viewWillLayoutSubviews {
-    self.tabBar.height = 30.f;
-    self.tabBar.y = [UIScreen mainScreen].bounds.size.height - 30;
+    self.tabBar.height = 35.f;
+    self.tabBar.y = [UIScreen mainScreen].bounds.size.height - 35;
 }
 
 @end
