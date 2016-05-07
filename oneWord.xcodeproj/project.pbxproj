@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A2018CD8C4C5F9E14D4391AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB61B770DBE51C60A1CD8D9C /* libPods.a */; };
-		FCE5F49F1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE5F49E1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.m */; };
+		FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */; };
+		FCC1C92E1CDDAB27001D95C2 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC1C92D1CDDAB27001D95C2 /* 1.png */; };
 		FCEC41E01CDB9B78007F8F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41DF1CDB9B78007F8F73 /* main.m */; };
 		FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41E21CDB9B78007F8F73 /* AppDelegate.m */; };
 		FCEC41EB1CDB9B78007F8F73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEC41EA1CDB9B78007F8F73 /* Assets.xcassets */; };
@@ -42,8 +43,9 @@
 		99ECDC98EDF8ADD3D0763CB8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BDCFED3EC03D53901732E0C6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DB61B770DBE51C60A1CD8D9C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCE5F49D1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GFCornerRadis.h"; sourceTree = "<group>"; };
-		FCE5F49E1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GFCornerRadis.m"; sourceTree = "<group>"; };
+		FCC1C92A1CDDA423001D95C2 /* UIImageView+GFCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GFCornerRadius.h"; sourceTree = "<group>"; };
+		FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GFCornerRadius.m"; sourceTree = "<group>"; };
+		FCC1C92D1CDDAB27001D95C2 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		FCEC41DB1CDB9B78007F8F73 /* oneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEC41DF1CDB9B78007F8F73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCEC41E11CDB9B78007F8F73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -184,8 +186,8 @@
 			children = (
 				FCEC421D1CDBA334007F8F73 /* UIView+GFExtension.h */,
 				FCEC421E1CDBA334007F8F73 /* UIView+GFExtension.m */,
-				FCE5F49D1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.h */,
-				FCE5F49E1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.m */,
+				FCC1C92A1CDDA423001D95C2 /* UIImageView+GFCornerRadius.h */,
+				FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */,
 				FCEC42201CDBA39A007F8F73 /* GFCategoryHeader.h */,
 			);
 			name = Category;
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				FCEC42161CDB9F75007F8F73 /* GFTabBarViewController.h */,
+				FCC1C92D1CDDAB27001D95C2 /* 1.png */,
 				FCEC42171CDB9F75007F8F73 /* GFTabBarViewController.m */,
 			);
 			name = Main;
@@ -343,6 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC1C92E1CDDAB27001D95C2 /* 1.png in Resources */,
 				FCEC41EE1CDB9B78007F8F73 /* LaunchScreen.storyboard in Resources */,
 				FCEC41EB1CDB9B78007F8F73 /* Assets.xcassets in Resources */,
 			);
@@ -418,9 +422,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEC421F1CDBA334007F8F73 /* UIView+GFExtension.m in Sources */,
-				FCE5F49F1CDCEB3900ABFC25 /* UIImage+GFCornerRadis.m in Sources */,
 				FCEC421B1CDBA04C007F8F73 /* GFHomeContentViewController.m in Sources */,
 				FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */,
+				FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */,
 				FCEC42251CDBA9D2007F8F73 /* GFContentSortViewController.m in Sources */,
 				FCEC42181CDB9F75007F8F73 /* GFTabBarViewController.m in Sources */,
 				FCEC41E01CDB9B78007F8F73 /* main.m in Sources */,

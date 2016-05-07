@@ -14,3 +14,4 @@
 
 
 #import "UIView+GFExtension.h"
+#import "UIImageView+GFCornerRadius.h"

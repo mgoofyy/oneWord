@@ -14,6 +14,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
+    
+    UIImageView *imageview = [[UIImageView alloc]initWithFrame:CGRectMake(20, 100, 200, 100)];
+    imageview.contentMode = UIViewContentModeScaleAspectFill;
+   imageview.cornerRadius = 15.0f;
+    imageview.image = [UIImage imageNamed:@"1.png"];
+    
+    [self.view addSubview:imageview];
 }
 
 @end
