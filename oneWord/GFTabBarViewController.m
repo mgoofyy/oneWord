@@ -9,31 +9,61 @@
 #import "GFTabBarViewController.h"
 #import "GFHomeContentViewController.h"
 #import "GFContentSortViewController.h"
+#import "UIImage+GFImage.h"
+#import "GFNavigationController.h"
+#import "GFTabBar.h"
+#import "GFMessageViewController.h"
+#import "GFMeViewController.h"
+
+@interface GFTabBarViewController()
+
+@property (nonatomic,strong) NSMutableArray *tabBarItem;
+
+@property (nonatomic, weak) GFHomeContentViewController *home;
+
+@end
 
 @implementation GFTabBarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setChildViewController];
+
     
+    GFTabBar *tabBar = [[GFTabBar alloc]initWithFrame:self.tabBar.frame];
+    [self setValue:tabBar forKey:@"tabBar"];
     
 }
 
 - (void)setChildViewController {
-    GFHomeContentViewController *homeVC = [[GFHomeContentViewController alloc] init];
-    homeVC.tabBarItem.title = @"内容";
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:homeVC];
-    [self addChildViewController:nav];
+        //首页
+        GFHomeContentViewController *home = [[GFHomeContentViewController alloc]init];
+        _home = home;
+        [self setTabBarItem:home image:@"tabbar_home" selectedImage:@"tabbar_home_highlighted" title:@"首页"];
+        
+        GFContentSortViewController *contentSortVC = [[GFContentSortViewController alloc]init];
+        [self setTabBarItem:contentSortVC image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_highlighted" title:@"消息"];
+        
+        GFMessageViewController *messageViewController = [[GFMessageViewController alloc]init];
+        [self setTabBarItem:messageViewController image:@"tabbar_discover" selectedImage:@"tabbar_discover_highlighted" title:@"发现"];
+        
+        GFMeViewController *meViewController = [[GFMeViewController alloc]init];
+        [self setTabBarItem:meViewController image:@"tabbar_profile" selectedImage:@"tabbar_profile_highlighted" title:@"我"];
     
-    GFContentSortViewController *contentVC = [[GFContentSortViewController alloc] init];
-    homeVC.tabBarItem.title = @"内容";
-    UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:contentVC];
-    [self addChildViewController:nav2];
 }
 
 - (void)viewWillLayoutSubviews {
-    self.tabBar.height = 35.f;
-    self.tabBar.y = [UIScreen mainScreen].bounds.size.height - 35;
+    self.tabBar.height = 40.f;
+    self.tabBar.y = [UIScreen mainScreen].bounds.size.height - 40;
+}
+
+-(void)setTabBarItem:(UIViewController *)viewController image:(NSString *)imageName selectedImage:(NSString *)selectImageName title:(NSString *)title {
+    
+    viewController.tabBarItem.image = [UIImage imageWithOriginImage:imageName];
+    viewController.tabBarItem.selectedImage = [UIImage imageWithOriginImage:selectImageName];
+    GFNavigationController *nav = [[GFNavigationController alloc]initWithRootViewController:viewController];
+    [self addChildViewController:nav];
+    [self.tabBarItem addObject:viewController];
 }
 
 @end
