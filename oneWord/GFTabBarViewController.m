@@ -36,6 +36,25 @@
     
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self setLaunchAnimation];
+}
+
+- (void)setLaunchAnimation {
+    UIViewController *viewController = [[UIStoryboard storyboardWithName:@"LaunchScreen" bundle:nil] instantiateViewControllerWithIdentifier:@"launchStoryboard"];
+    
+    UIView *launchView = viewController.view;
+    AppDelegate *delegate = [UIApplication sharedApplication].delegate;
+    UIWindow *mainWindow = delegate.window;
+    [mainWindow addSubview:launchView];
+    
+    [UIView animateWithDuration:0.6f delay:0.5f options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+        launchView.x = -SCREEN_WIDTH;
+    } completion:^(BOOL finished) {
+        [launchView removeFromSuperview];
+    }];
+}
 
 - (void)setChildViewController {
         //首页
