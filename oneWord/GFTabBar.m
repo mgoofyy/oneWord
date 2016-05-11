@@ -57,7 +57,7 @@
     self.backgroundColor = [UIColor whiteColor];
 
     self.tintColor = [UIColor orangeColor];
-    CGFloat tabBarY = 0;
+    CGFloat tabBarY = 5;
     CGFloat tabBarW = self.bounds.size.width / (self.items.count + 1);
     CGFloat tabBarH = self.bounds.size.height;
     
