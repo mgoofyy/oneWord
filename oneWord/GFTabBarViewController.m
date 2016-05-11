@@ -14,6 +14,7 @@
 #import "GFTabBar.h"
 #import "GFMessageViewController.h"
 #import "GFMeViewController.h"
+#import "AppDelegate.h"
 
 @interface GFTabBarViewController()
 
@@ -34,6 +35,7 @@
     [self setValue:tabBar forKey:@"tabBar"];
     
 }
+
 
 - (void)setChildViewController {
         //首页

@@ -16,6 +16,8 @@
 		FC101C021CE36AE200ADAADF /* GFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC101C011CE36AE200ADAADF /* GFNavigationController.m */; };
 		FC101C051CE36C2500ADAADF /* GFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC101C041CE36C2500ADAADF /* GFTabBar.m */; };
 		FC101C081CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC101C071CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.m */; };
+		FC1ACF8D1CE373A600DE97A6 /* lanuch.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1ACF8C1CE373A600DE97A6 /* lanuch.png */; };
+		FC1ACF931CE377D900DE97A6 /* GFConstValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1ACF921CE377D900DE97A6 /* GFConstValue.m */; };
 		FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */; };
 		FCEC41E01CDB9B78007F8F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41DF1CDB9B78007F8F73 /* main.m */; };
 		FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41E21CDB9B78007F8F73 /* AppDelegate.m */; };
@@ -64,6 +66,9 @@
 		FC101C041CE36C2500ADAADF /* GFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTabBar.m; sourceTree = "<group>"; };
 		FC101C061CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GFBarButtonItem.h"; sourceTree = "<group>"; };
 		FC101C071CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GFBarButtonItem.m"; sourceTree = "<group>"; };
+		FC1ACF8C1CE373A600DE97A6 /* lanuch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanuch.png; sourceTree = "<group>"; };
+		FC1ACF911CE377D900DE97A6 /* GFConstValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFConstValue.h; sourceTree = "<group>"; };
+		FC1ACF921CE377D900DE97A6 /* GFConstValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFConstValue.m; sourceTree = "<group>"; };
 		FCC1C92A1CDDA423001D95C2 /* UIImageView+GFCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GFCornerRadius.h"; sourceTree = "<group>"; };
 		FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GFCornerRadius.m"; sourceTree = "<group>"; };
 		FCEC41DB1CDB9B78007F8F73 /* oneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,6 +194,7 @@
 				FCEC42111CDB9BC6007F8F73 /* Category */,
 				FCEC41E11CDB9B78007F8F73 /* AppDelegate.h */,
 				FCEC41E21CDB9B78007F8F73 /* AppDelegate.m */,
+				FC1ACF8C1CE373A600DE97A6 /* lanuch.png */,
 				FCEC41EA1CDB9B78007F8F73 /* Assets.xcassets */,
 				FCEC41EC1CDB9B78007F8F73 /* LaunchScreen.storyboard */,
 				FCEC41EF1CDB9B78007F8F73 /* Info.plist */,
@@ -281,6 +287,8 @@
 			isa = PBXGroup;
 			children = (
 				FCEC42221CDBA3F3007F8F73 /* GFPrefixHeader.pch */,
+				FC1ACF911CE377D900DE97A6 /* GFConstValue.h */,
+				FC1ACF921CE377D900DE97A6 /* GFConstValue.m */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -396,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEC41EE1CDB9B78007F8F73 /* LaunchScreen.storyboard in Resources */,
+				FC1ACF8D1CE373A600DE97A6 /* lanuch.png in Resources */,
 				FC101BFC1CE36A3F00ADAADF /* GFMeViewController.xib in Resources */,
 				FCEC41EB1CDB9B78007F8F73 /* Assets.xcassets in Resources */,
 				FC101BF71CE36A3000ADAADF /* GFMessageViewController.xib in Resources */,
@@ -475,6 +484,7 @@
 				FCEC421F1CDBA334007F8F73 /* UIView+GFExtension.m in Sources */,
 				FCEC421B1CDBA04C007F8F73 /* GFHomeContentViewController.m in Sources */,
 				FC101C081CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.m in Sources */,
+				FC1ACF931CE377D900DE97A6 /* GFConstValue.m in Sources */,
 				FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */,
 				FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */,
 				FCEC42251CDBA9D2007F8F73 /* GFContentSortViewController.m in Sources */,

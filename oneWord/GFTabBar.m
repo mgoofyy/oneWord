@@ -18,40 +18,6 @@
 
 @implementation GFTabBar
 
-//
-//-(NSMutableArray *)buttons {
-//    if (_buttons == nil) {
-//        NSMutableArray *buttons = [[NSMutableArray alloc]init];
-//        _buttons = buttons;
-//        [self getButtons];
-//        
-//    }
-//    return _buttons;
-//}
-//
-//
-//-(void)getButtons {
-//    for (UIBarButtonItem *item in self.items) {
-//        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-//        btn.tag = self.buttons.count;
-//        [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchDown];
-//        if (btn.tag == 0) { // 选中第0个
-//            [self btnClick:btn];
-//            
-//        }
-//        
-//        [self addSubview:btn];
-//        
-//        // 把按钮添加到按钮数组
-//        [self.buttons addObject:btn];
-//    }
-//}
-//
-//
-//-(void)btnClick:(UIButton *)button {
-//    NSLog(@"hello");
-//}
-
 -(void)layoutSubviews {
     [super layoutSubviews];
     self.backgroundColor = [UIColor whiteColor];
