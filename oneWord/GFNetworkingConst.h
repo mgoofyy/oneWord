@@ -1,5 +1,5 @@
 //
-//  GFHTTPManger.h
+//  GFNetworkingConst.h
 //  oneWord
 //
 //  Created by goofygao on 5/12/16.
@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GFHTTPManger : NSObject
+extern NSString * const APIRootBsseURL;
+
+@interface GFNetworkingConst : NSObject
 
 @end

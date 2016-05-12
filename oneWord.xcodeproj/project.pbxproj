@@ -19,6 +19,7 @@
 		FC1ACF8D1CE373A600DE97A6 /* lanuch.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1ACF8C1CE373A600DE97A6 /* lanuch.png */; };
 		FC1ACF931CE377D900DE97A6 /* GFConstValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1ACF921CE377D900DE97A6 /* GFConstValue.m */; };
 		FC20A9931CE4D64400BEAF36 /* GFHTTPManger.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */; };
+		FC20A9961CE4D90F00BEAF36 /* GFNetworkingConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9951CE4D90F00BEAF36 /* GFNetworkingConst.m */; };
 		FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */; };
 		FCEC41E01CDB9B78007F8F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41DF1CDB9B78007F8F73 /* main.m */; };
 		FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41E21CDB9B78007F8F73 /* AppDelegate.m */; };
@@ -72,6 +73,8 @@
 		FC1ACF921CE377D900DE97A6 /* GFConstValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFConstValue.m; sourceTree = "<group>"; };
 		FC20A9911CE4D64400BEAF36 /* GFHTTPManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHTTPManger.h; sourceTree = "<group>"; };
 		FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHTTPManger.m; sourceTree = "<group>"; };
+		FC20A9941CE4D90F00BEAF36 /* GFNetworkingConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNetworkingConst.h; sourceTree = "<group>"; };
+		FC20A9951CE4D90F00BEAF36 /* GFNetworkingConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNetworkingConst.m; sourceTree = "<group>"; };
 		FCC1C92A1CDDA423001D95C2 /* UIImageView+GFCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GFCornerRadius.h"; sourceTree = "<group>"; };
 		FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GFCornerRadius.m"; sourceTree = "<group>"; };
 		FCEC41DB1CDB9B78007F8F73 /* oneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +178,8 @@
 			children = (
 				FC20A9911CE4D64400BEAF36 /* GFHTTPManger.h */,
 				FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */,
+				FC20A9941CE4D90F00BEAF36 /* GFNetworkingConst.h */,
+				FC20A9951CE4D90F00BEAF36 /* GFNetworkingConst.m */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 		FCEC41DE1CDB9B78007F8F73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FCEC42221CDBA3F3007F8F73 /* GFPrefixHeader.pch */,
 				FCEC41DF1CDB9B78007F8F73 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -307,7 +313,6 @@
 		FCEC42211CDBA3DE007F8F73 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				FCEC42221CDBA3F3007F8F73 /* GFPrefixHeader.pch */,
 				FC1ACF911CE377D900DE97A6 /* GFConstValue.h */,
 				FC1ACF921CE377D900DE97A6 /* GFConstValue.m */,
 			);
@@ -511,6 +516,7 @@
 				FCEC42251CDBA9D2007F8F73 /* GFContentSortViewController.m in Sources */,
 				FC101C051CE36C2500ADAADF /* GFTabBar.m in Sources */,
 				FC101BF61CE36A3000ADAADF /* GFMessageViewController.m in Sources */,
+				FC20A9961CE4D90F00BEAF36 /* GFNetworkingConst.m in Sources */,
 				FC101BFF1CE36AA900ADAADF /* UIImage+GFImage.m in Sources */,
 				FC101BFB1CE36A3F00ADAADF /* GFMeViewController.m in Sources */,
 				FCEC42181CDB9F75007F8F73 /* GFTabBarViewController.m in Sources */,
