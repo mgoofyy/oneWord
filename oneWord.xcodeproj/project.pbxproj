@@ -18,6 +18,7 @@
 		FC101C081CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC101C071CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.m */; };
 		FC1ACF8D1CE373A600DE97A6 /* lanuch.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1ACF8C1CE373A600DE97A6 /* lanuch.png */; };
 		FC1ACF931CE377D900DE97A6 /* GFConstValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1ACF921CE377D900DE97A6 /* GFConstValue.m */; };
+		FC20A9931CE4D64400BEAF36 /* GFHTTPManger.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */; };
 		FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */; };
 		FCEC41E01CDB9B78007F8F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41DF1CDB9B78007F8F73 /* main.m */; };
 		FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41E21CDB9B78007F8F73 /* AppDelegate.m */; };
@@ -69,6 +70,8 @@
 		FC1ACF8C1CE373A600DE97A6 /* lanuch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanuch.png; sourceTree = "<group>"; };
 		FC1ACF911CE377D900DE97A6 /* GFConstValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFConstValue.h; sourceTree = "<group>"; };
 		FC1ACF921CE377D900DE97A6 /* GFConstValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFConstValue.m; sourceTree = "<group>"; };
+		FC20A9911CE4D64400BEAF36 /* GFHTTPManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHTTPManger.h; sourceTree = "<group>"; };
+		FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHTTPManger.m; sourceTree = "<group>"; };
 		FCC1C92A1CDDA423001D95C2 /* UIImageView+GFCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GFCornerRadius.h"; sourceTree = "<group>"; };
 		FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GFCornerRadius.m"; sourceTree = "<group>"; };
 		FCEC41DB1CDB9B78007F8F73 /* oneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +162,23 @@
 			name = Me;
 			sourceTree = "<group>";
 		};
+		FC20A98F1CE4D60D00BEAF36 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FC20A9901CE4D61500BEAF36 /* Networking */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		FC20A9901CE4D61500BEAF36 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FC20A9911CE4D64400BEAF36 /* GFHTTPManger.h */,
+				FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
 		FCEC41D21CDB9B78007F8F73 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +204,7 @@
 		FCEC41DD1CDB9B78007F8F73 /* oneWord */ = {
 			isa = PBXGroup;
 			children = (
+				FC20A98F1CE4D60D00BEAF36 /* API */,
 				FC101BF21CE36A1000ADAADF /* Me */,
 				FC101BF11CE36A0A00ADAADF /* Message */,
 				FCEC42211CDBA3DE007F8F73 /* Other */,
@@ -493,6 +514,7 @@
 				FC101BFF1CE36AA900ADAADF /* UIImage+GFImage.m in Sources */,
 				FC101BFB1CE36A3F00ADAADF /* GFMeViewController.m in Sources */,
 				FCEC42181CDB9F75007F8F73 /* GFTabBarViewController.m in Sources */,
+				FC20A9931CE4D64400BEAF36 /* GFHTTPManger.m in Sources */,
 				FCEC41E01CDB9B78007F8F73 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

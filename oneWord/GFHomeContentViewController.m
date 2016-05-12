@@ -14,9 +14,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
+    [self initView];
     
 }
+
+
+#pragma mark - initView
+
+- (void)initView {
+    self.view.backgroundColor = [UIColor redColor];
+}
+
+#pragma mark - function
+
+
+
+#pragma mark - delegate
+
+
+
+
+#pragma mark - action
+
 
 
 
