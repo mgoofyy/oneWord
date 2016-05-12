@@ -20,6 +20,8 @@
 		FC1ACF931CE377D900DE97A6 /* GFConstValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1ACF921CE377D900DE97A6 /* GFConstValue.m */; };
 		FC20A9931CE4D64400BEAF36 /* GFHTTPManger.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */; };
 		FC20A9961CE4D90F00BEAF36 /* GFNetworkingConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9951CE4D90F00BEAF36 /* GFNetworkingConst.m */; };
+		FC20A99D1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A99C1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m */; };
+		FC20A9A01CE4DEE200BEAF36 /* GFHomeContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A99F1CE4DEE200BEAF36 /* GFHomeContentModel.m */; };
 		FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */; };
 		FCEC41E01CDB9B78007F8F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41DF1CDB9B78007F8F73 /* main.m */; };
 		FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41E21CDB9B78007F8F73 /* AppDelegate.m */; };
@@ -75,6 +77,10 @@
 		FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHTTPManger.m; sourceTree = "<group>"; };
 		FC20A9941CE4D90F00BEAF36 /* GFNetworkingConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNetworkingConst.h; sourceTree = "<group>"; };
 		FC20A9951CE4D90F00BEAF36 /* GFNetworkingConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFNetworkingConst.m; sourceTree = "<group>"; };
+		FC20A99B1CE4DE1F00BEAF36 /* GFHomeContentViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHomeContentViewModel.h; sourceTree = "<group>"; };
+		FC20A99C1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHomeContentViewModel.m; sourceTree = "<group>"; };
+		FC20A99E1CE4DEE200BEAF36 /* GFHomeContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHomeContentModel.h; sourceTree = "<group>"; };
+		FC20A99F1CE4DEE200BEAF36 /* GFHomeContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHomeContentModel.m; sourceTree = "<group>"; };
 		FCC1C92A1CDDA423001D95C2 /* UIImageView+GFCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GFCornerRadius.h"; sourceTree = "<group>"; };
 		FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GFCornerRadius.m"; sourceTree = "<group>"; };
 		FCEC41DB1CDB9B78007F8F73 /* oneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +190,33 @@
 			name = Networking;
 			sourceTree = "<group>";
 		};
+		FC20A9981CE4DDE400BEAF36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCEC42191CDBA04C007F8F73 /* GFHomeContentViewController.h */,
+				FCEC421A1CDBA04C007F8F73 /* GFHomeContentViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FC20A9991CE4DDE900BEAF36 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC20A99B1CE4DE1F00BEAF36 /* GFHomeContentViewModel.h */,
+				FC20A99C1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC20A99A1CE4DDF400BEAF36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC20A99E1CE4DEE200BEAF36 /* GFHomeContentModel.h */,
+				FC20A99F1CE4DEE200BEAF36 /* GFHomeContentModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		FCEC41D21CDB9B78007F8F73 = {
 			isa = PBXGroup;
 			children = (
@@ -277,8 +310,9 @@
 		FCEC42131CDB9E90007F8F73 /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				FCEC42191CDBA04C007F8F73 /* GFHomeContentViewController.h */,
-				FCEC421A1CDBA04C007F8F73 /* GFHomeContentViewController.m */,
+				FC20A99A1CE4DDF400BEAF36 /* Model */,
+				FC20A9991CE4DDE900BEAF36 /* ViewModel */,
+				FC20A9981CE4DDE400BEAF36 /* View */,
 			);
 			name = Content;
 			sourceTree = "<group>";
@@ -509,6 +543,7 @@
 				FC101C021CE36AE200ADAADF /* GFNavigationController.m in Sources */,
 				FCEC421F1CDBA334007F8F73 /* UIView+GFExtension.m in Sources */,
 				FCEC421B1CDBA04C007F8F73 /* GFHomeContentViewController.m in Sources */,
+				FC20A9A01CE4DEE200BEAF36 /* GFHomeContentModel.m in Sources */,
 				FC101C081CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.m in Sources */,
 				FC1ACF931CE377D900DE97A6 /* GFConstValue.m in Sources */,
 				FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */,
@@ -518,6 +553,7 @@
 				FC101BF61CE36A3000ADAADF /* GFMessageViewController.m in Sources */,
 				FC20A9961CE4D90F00BEAF36 /* GFNetworkingConst.m in Sources */,
 				FC101BFF1CE36AA900ADAADF /* UIImage+GFImage.m in Sources */,
+				FC20A99D1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m in Sources */,
 				FC101BFB1CE36A3F00ADAADF /* GFMeViewController.m in Sources */,
 				FCEC42181CDB9F75007F8F73 /* GFTabBarViewController.m in Sources */,
 				FC20A9931CE4D64400BEAF36 /* GFHTTPManger.m in Sources */,
