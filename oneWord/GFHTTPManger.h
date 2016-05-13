@@ -11,7 +11,7 @@
 @interface GFHTTPManger : NSObject
 
 
-+ (NSURLSessionTask *)POST:(NSString *)urlString
++ (NSURLSessionTask *)POST_BASE:(NSString *)urlString
                 parameters:(NSDictionary *)parameters
               responseKeys:(id)responseKeys
                    autoRun:(BOOL)autoRun

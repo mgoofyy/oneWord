@@ -25,6 +25,8 @@
 		FC20A9A41CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9A21CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.m */; };
 		FC20A9A51CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC20A9A31CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.xib */; };
 		FC20A9A81CE4E50400BEAF36 /* GFCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9A71CE4E50400BEAF36 /* GFCollectionViewFlowLayout.m */; };
+		FC8CFCC81CE6125000795D5F /* GFHTTPManger+GFLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CFCC71CE6125000795D5F /* GFHTTPManger+GFLogin.m */; };
+		FC8CFCCB1CE613E700795D5F /* GFHTTPManger+GFLoginRAC.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CFCCA1CE613E700795D5F /* GFHTTPManger+GFLoginRAC.m */; };
 		FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */; };
 		FCEC41E01CDB9B78007F8F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41DF1CDB9B78007F8F73 /* main.m */; };
 		FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41E21CDB9B78007F8F73 /* AppDelegate.m */; };
@@ -89,6 +91,10 @@
 		FC20A9A31CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFHomeContentCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC20A9A61CE4E50400BEAF36 /* GFCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		FC20A9A71CE4E50400BEAF36 /* GFCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		FC8CFCC61CE6125000795D5F /* GFHTTPManger+GFLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFHTTPManger+GFLogin.h"; sourceTree = "<group>"; };
+		FC8CFCC71CE6125000795D5F /* GFHTTPManger+GFLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GFHTTPManger+GFLogin.m"; sourceTree = "<group>"; };
+		FC8CFCC91CE613E700795D5F /* GFHTTPManger+GFLoginRAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFHTTPManger+GFLoginRAC.h"; sourceTree = "<group>"; };
+		FC8CFCCA1CE613E700795D5F /* GFHTTPManger+GFLoginRAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GFHTTPManger+GFLoginRAC.m"; sourceTree = "<group>"; };
 		FCC1C92A1CDDA423001D95C2 /* UIImageView+GFCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GFCornerRadius.h"; sourceTree = "<group>"; };
 		FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GFCornerRadius.m"; sourceTree = "<group>"; };
 		FCEC41DB1CDB9B78007F8F73 /* oneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,6 +200,10 @@
 				FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */,
 				FC20A9941CE4D90F00BEAF36 /* GFNetworkingConst.h */,
 				FC20A9951CE4D90F00BEAF36 /* GFNetworkingConst.m */,
+				FC8CFCC61CE6125000795D5F /* GFHTTPManger+GFLogin.h */,
+				FC8CFCC71CE6125000795D5F /* GFHTTPManger+GFLogin.m */,
+				FC8CFCC91CE613E700795D5F /* GFHTTPManger+GFLoginRAC.h */,
+				FC8CFCCA1CE613E700795D5F /* GFHTTPManger+GFLoginRAC.m */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -568,6 +578,8 @@
 				FC101BF61CE36A3000ADAADF /* GFMessageViewController.m in Sources */,
 				FC20A9961CE4D90F00BEAF36 /* GFNetworkingConst.m in Sources */,
 				FC20A9A81CE4E50400BEAF36 /* GFCollectionViewFlowLayout.m in Sources */,
+				FC8CFCCB1CE613E700795D5F /* GFHTTPManger+GFLoginRAC.m in Sources */,
+				FC8CFCC81CE6125000795D5F /* GFHTTPManger+GFLogin.m in Sources */,
 				FC101BFF1CE36AA900ADAADF /* UIImage+GFImage.m in Sources */,
 				FC20A99D1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m in Sources */,
 				FC101BFB1CE36A3F00ADAADF /* GFMeViewController.m in Sources */,

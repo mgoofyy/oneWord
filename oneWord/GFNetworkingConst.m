@@ -12,7 +12,4 @@ NSString *const APIRootBsseURL = @"http://www.goofyy";
 
 @implementation GFNetworkingConst
 
-
-
-
 @end
