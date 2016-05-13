@@ -33,7 +33,7 @@
              responseKeys:(id)responseKeys
                   autoRun:(BOOL)autoRun
                  progress:(void(^)(NSProgress *))progress
-               completion:(BOOL success, id userinfo)completion {
+               completion:(void(^)(BOOL success, id userinfo))completion {
     AFHTTPSessionManager *manager = [GFHTTPManger manger];
     NSURLSessionTask *task =
     [manager POST:urlString

@@ -8,8 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^completion) (BOOL success, id userinfo);
-
 @interface GFHTTPManger : NSObject
 
+
++ (NSURLSessionTask *)POST:(NSString *)urlString
+                parameters:(NSDictionary *)parameters
+              responseKeys:(id)responseKeys
+                   autoRun:(BOOL)autoRun
+                  progress:(void(^)(NSProgress *))progress
+                completion:(void(^)(BOOL success, id userinfo))completion;
 @end
