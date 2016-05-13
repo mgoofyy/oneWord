@@ -22,6 +22,9 @@
 		FC20A9961CE4D90F00BEAF36 /* GFNetworkingConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9951CE4D90F00BEAF36 /* GFNetworkingConst.m */; };
 		FC20A99D1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A99C1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m */; };
 		FC20A9A01CE4DEE200BEAF36 /* GFHomeContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A99F1CE4DEE200BEAF36 /* GFHomeContentModel.m */; };
+		FC20A9A41CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9A21CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.m */; };
+		FC20A9A51CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC20A9A31CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.xib */; };
+		FC20A9A81CE4E50400BEAF36 /* GFCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9A71CE4E50400BEAF36 /* GFCollectionViewFlowLayout.m */; };
 		FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */; };
 		FCEC41E01CDB9B78007F8F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41DF1CDB9B78007F8F73 /* main.m */; };
 		FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC41E21CDB9B78007F8F73 /* AppDelegate.m */; };
@@ -81,6 +84,11 @@
 		FC20A99C1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHomeContentViewModel.m; sourceTree = "<group>"; };
 		FC20A99E1CE4DEE200BEAF36 /* GFHomeContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHomeContentModel.h; sourceTree = "<group>"; };
 		FC20A99F1CE4DEE200BEAF36 /* GFHomeContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHomeContentModel.m; sourceTree = "<group>"; };
+		FC20A9A11CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHomeContentCollectionViewCell.h; sourceTree = "<group>"; };
+		FC20A9A21CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHomeContentCollectionViewCell.m; sourceTree = "<group>"; };
+		FC20A9A31CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFHomeContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC20A9A61CE4E50400BEAF36 /* GFCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		FC20A9A71CE4E50400BEAF36 /* GFCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		FCC1C92A1CDDA423001D95C2 /* UIImageView+GFCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GFCornerRadius.h"; sourceTree = "<group>"; };
 		FCC1C92B1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GFCornerRadius.m"; sourceTree = "<group>"; };
 		FCEC41DB1CDB9B78007F8F73 /* oneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +203,11 @@
 			children = (
 				FCEC42191CDBA04C007F8F73 /* GFHomeContentViewController.h */,
 				FCEC421A1CDBA04C007F8F73 /* GFHomeContentViewController.m */,
+				FC20A9A61CE4E50400BEAF36 /* GFCollectionViewFlowLayout.h */,
+				FC20A9A71CE4E50400BEAF36 /* GFCollectionViewFlowLayout.m */,
+				FC20A9A11CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.h */,
+				FC20A9A21CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.m */,
+				FC20A9A31CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -467,6 +480,7 @@
 				FC1ACF8D1CE373A600DE97A6 /* lanuch.png in Resources */,
 				FC101BFC1CE36A3F00ADAADF /* GFMeViewController.xib in Resources */,
 				FCEC41EB1CDB9B78007F8F73 /* Assets.xcassets in Resources */,
+				FC20A9A51CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.xib in Resources */,
 				FC101BF71CE36A3000ADAADF /* GFMessageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,9 +563,11 @@
 				FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */,
 				FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */,
 				FCEC42251CDBA9D2007F8F73 /* GFContentSortViewController.m in Sources */,
+				FC20A9A41CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.m in Sources */,
 				FC101C051CE36C2500ADAADF /* GFTabBar.m in Sources */,
 				FC101BF61CE36A3000ADAADF /* GFMessageViewController.m in Sources */,
 				FC20A9961CE4D90F00BEAF36 /* GFNetworkingConst.m in Sources */,
+				FC20A9A81CE4E50400BEAF36 /* GFCollectionViewFlowLayout.m in Sources */,
 				FC101BFF1CE36AA900ADAADF /* UIImage+GFImage.m in Sources */,
 				FC20A99D1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m in Sources */,
 				FC101BFB1CE36A3F00ADAADF /* GFMeViewController.m in Sources */,

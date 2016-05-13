@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^completion) (BOOL success, id userinfo);
+
 @interface GFHTTPManger : NSObject
 
 @end
