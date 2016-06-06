@@ -22,21 +22,26 @@
     return [APIRootBsseURL stringByAppendingString:urlString];
 }
 
-//+ (void)manager:(AFHTTPSessionManager *)manager addAcceptableType:(NSString *)type {
-//    NSMutableSet *types = [NSMutableSet setWithSet:Manager.responseSerializer.acceptableContentTypes];
-//    [types addObject:type];
-//    [manager.responseSerializer setAcceptableContentTypes:types];
-//}
++ (void)configNetWoringManger {
+    [self manger].responseSerializer = [AFJSONResponseSerializer serializer];
+    [self manger].responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"application/json"];
+}
+
+- (void)setHttpCookieToken:(NSString *)httpCookieToken {
+    if (httpCookieToken) {
+        [[GFHTTPManger manger] setValue:httpCookieToken forKey:@"Authorization"];
+    }
+}
 
 + (NSURLSessionTask *)POST:(NSString *)urlString
                parameters:(NSDictionary *)parameters
              responseKeys:(id)responseKeys
                   autoRun:(BOOL)autoRun
-                 progress:(void(^)(NSProgress *))progress
-               completion:(void(^)(BOOL success, id userinfo))completion {
+                  progress:(GFNetProcessBlock)progress
+                completion:(GFNetCompletionBlock)completion; {
     AFHTTPSessionManager *manager = [GFHTTPManger manger];
     NSURLSessionTask *task =
-    [manager POST:urlString
+    [manager POST:[GFHTTPManger fullUrlString:urlString]
        parameters:parameters
          progress:progress success:^(NSURLSessionTask *task, id response)
      {

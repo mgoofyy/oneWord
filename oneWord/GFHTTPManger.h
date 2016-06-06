@@ -7,14 +7,29 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NetWorkingBlock.h"
 
 @interface GFHTTPManger : NSObject
-
-
-+ (NSURLSessionTask *)POST_BASE:(NSString *)urlString
+/**
+ *  请求头 token
+ */
+@property (nonatomic,copy) NSString *httpCookieToken;
+/**
+ *  POST请求
+ *
+ *  @param urlString    请求的url - 去除rootUrl
+ *  @param parameters   参数
+ *  @param responseKeys 返回的keys @[@"error",@"success"]
+ *  @param autoRun      任务是否继续运行
+ *  @param progress     进度
+ *  @param completion   完成后的闭包
+ *
+ *  @return 当前任务task
+ */
++ (NSURLSessionTask *)POST:(NSString *)urlString
                 parameters:(NSDictionary *)parameters
               responseKeys:(id)responseKeys
                    autoRun:(BOOL)autoRun
-                  progress:(void(^)(NSProgress *))progress
-                completion:(void(^)(BOOL success, id userinfo))completion;
+                  progress:(GFNetProcessBlock)progress
+                completion:(GFNetCompletionBlock)completion;
 @end

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString * const APIRootBsseURL;
+FOUNDATION_EXPORT NSString * const APIRootBsseURL;
 
 @interface GFNetworkingConst : NSObject
 

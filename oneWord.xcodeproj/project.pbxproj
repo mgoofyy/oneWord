@@ -75,6 +75,7 @@
 		FC101C041CE36C2500ADAADF /* GFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFTabBar.m; sourceTree = "<group>"; };
 		FC101C061CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+GFBarButtonItem.h"; sourceTree = "<group>"; };
 		FC101C071CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+GFBarButtonItem.m"; sourceTree = "<group>"; };
+		FC1722481D05832000846BCD /* NetWorkingBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkingBlock.h; sourceTree = "<group>"; };
 		FC1ACF8C1CE373A600DE97A6 /* lanuch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanuch.png; sourceTree = "<group>"; };
 		FC1ACF911CE377D900DE97A6 /* GFConstValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFConstValue.h; sourceTree = "<group>"; };
 		FC1ACF921CE377D900DE97A6 /* GFConstValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFConstValue.m; sourceTree = "<group>"; };
@@ -204,6 +205,7 @@
 				FC8CFCC71CE6125000795D5F /* GFHTTPManger+GFLogin.m */,
 				FC8CFCC91CE613E700795D5F /* GFHTTPManger+GFLoginRAC.h */,
 				FC8CFCCA1CE613E700795D5F /* GFHTTPManger+GFLoginRAC.m */,
+				FC1722481D05832000846BCD /* NetWorkingBlock.h */,
 			);
 			name = Networking;
 			sourceTree = "<group>";

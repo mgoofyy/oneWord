@@ -12,7 +12,7 @@
 
 + (NSURLSessionTask *)login_POST:(NSString *)urlString params:(NSDictionary *)params completion:(void (^)(BOOL success,id userinfo))completion {
     //此处做一些参数的处理
-   return [GFHTTPManger POST_BASE:urlString parameters:params responseKeys:@[@"error",@"token",@"profile"] autoRun:YES progress:nil completion:completion];
+   return [GFHTTPManger POST:urlString parameters:params responseKeys:@[@"error",@"token",@"profile"] autoRun:YES progress:nil completion:completion];
 }
 
 @end
