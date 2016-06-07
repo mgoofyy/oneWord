@@ -8,7 +8,7 @@
 
 #import "GFTabBarViewController.h"
 #import "GFHomeContentViewController.h"
-#import "GFContentSortViewController.h"
+#import "GFContentSortTableViewController.h"
 #import "UIImage+GFImage.h"
 #import "GFNavigationController.h"
 #import "GFTabBar.h"
@@ -62,7 +62,7 @@
         _home = home;
         [self setTabBarItem:home image:@"tabbar_home" selectedImage:@"tabbar_home_highlighted" title:@"首页"];
         
-        GFContentSortViewController *contentSortVC = [[GFContentSortViewController alloc]init];
+        GFContentSortTableViewController *contentSortVC = [[GFContentSortTableViewController alloc]init];
         [self setTabBarItem:contentSortVC image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_highlighted" title:@"消息"];
         
         GFMessageViewController *messageViewController = [[GFMessageViewController alloc]init];

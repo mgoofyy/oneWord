@@ -19,6 +19,8 @@
 		FC1ACF8D1CE373A600DE97A6 /* lanuch.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1ACF8C1CE373A600DE97A6 /* lanuch.png */; };
 		FC1ACF931CE377D900DE97A6 /* GFConstValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1ACF921CE377D900DE97A6 /* GFConstValue.m */; };
 		FC1D11AC1D06A9DF0019BC8E /* GFLoginRacTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D11AB1D06A9DF0019BC8E /* GFLoginRacTest.m */; };
+		FC1D11B61D06BB420019BC8E /* GFContentSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D11B41D06BB420019BC8E /* GFContentSortCell.m */; };
+		FC1D11B71D06BB420019BC8E /* GFContentSortCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1D11B51D06BB420019BC8E /* GFContentSortCell.xib */; };
 		FC20A9931CE4D64400BEAF36 /* GFHTTPManger.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */; };
 		FC20A9961CE4D90F00BEAF36 /* GFNetworkingConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9951CE4D90F00BEAF36 /* GFNetworkingConst.m */; };
 		FC20A99D1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A99C1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m */; };
@@ -38,7 +40,7 @@
 		FCEC42181CDB9F75007F8F73 /* GFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC42171CDB9F75007F8F73 /* GFTabBarViewController.m */; };
 		FCEC421B1CDBA04C007F8F73 /* GFHomeContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC421A1CDBA04C007F8F73 /* GFHomeContentViewController.m */; };
 		FCEC421F1CDBA334007F8F73 /* UIView+GFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC421E1CDBA334007F8F73 /* UIView+GFExtension.m */; };
-		FCEC42251CDBA9D2007F8F73 /* GFContentSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC42241CDBA9D2007F8F73 /* GFContentSortViewController.m */; };
+		FCEC42251CDBA9D2007F8F73 /* GFContentSortTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEC42241CDBA9D2007F8F73 /* GFContentSortTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,9 @@
 		FC1ACF921CE377D900DE97A6 /* GFConstValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFConstValue.m; sourceTree = "<group>"; };
 		FC1D11AB1D06A9DF0019BC8E /* GFLoginRacTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFLoginRacTest.m; sourceTree = "<group>"; };
 		FC1D11AD1D06AD780019BC8E /* NetWorkingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkingHeader.h; sourceTree = "<group>"; };
+		FC1D11B31D06BB420019BC8E /* GFContentSortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFContentSortCell.h; sourceTree = "<group>"; };
+		FC1D11B41D06BB420019BC8E /* GFContentSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFContentSortCell.m; sourceTree = "<group>"; };
+		FC1D11B51D06BB420019BC8E /* GFContentSortCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFContentSortCell.xib; sourceTree = "<group>"; };
 		FC20A9911CE4D64400BEAF36 /* GFHTTPManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHTTPManger.h; sourceTree = "<group>"; };
 		FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHTTPManger.m; sourceTree = "<group>"; };
 		FC20A9941CE4D90F00BEAF36 /* GFNetworkingConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNetworkingConst.h; sourceTree = "<group>"; };
@@ -122,8 +127,8 @@
 		FCEC421E1CDBA334007F8F73 /* UIView+GFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GFExtension.m"; sourceTree = "<group>"; };
 		FCEC42201CDBA39A007F8F73 /* GFCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFCategoryHeader.h; sourceTree = "<group>"; };
 		FCEC42221CDBA3F3007F8F73 /* GFPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFPrefixHeader.pch; sourceTree = "<group>"; };
-		FCEC42231CDBA9D2007F8F73 /* GFContentSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFContentSortViewController.h; sourceTree = "<group>"; };
-		FCEC42241CDBA9D2007F8F73 /* GFContentSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFContentSortViewController.m; sourceTree = "<group>"; };
+		FCEC42231CDBA9D2007F8F73 /* GFContentSortTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFContentSortTableViewController.h; sourceTree = "<group>"; };
+		FCEC42241CDBA9D2007F8F73 /* GFContentSortTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFContentSortTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -361,8 +366,11 @@
 		FCEC42151CDB9EB6007F8F73 /* ContentSort */ = {
 			isa = PBXGroup;
 			children = (
-				FCEC42231CDBA9D2007F8F73 /* GFContentSortViewController.h */,
-				FCEC42241CDBA9D2007F8F73 /* GFContentSortViewController.m */,
+				FCEC42231CDBA9D2007F8F73 /* GFContentSortTableViewController.h */,
+				FCEC42241CDBA9D2007F8F73 /* GFContentSortTableViewController.m */,
+				FC1D11B31D06BB420019BC8E /* GFContentSortCell.h */,
+				FC1D11B41D06BB420019BC8E /* GFContentSortCell.m */,
+				FC1D11B51D06BB420019BC8E /* GFContentSortCell.xib */,
 			);
 			name = ContentSort;
 			sourceTree = "<group>";
@@ -495,6 +503,7 @@
 			files = (
 				FCEC41EE1CDB9B78007F8F73 /* LaunchScreen.storyboard in Resources */,
 				FC1ACF8D1CE373A600DE97A6 /* lanuch.png in Resources */,
+				FC1D11B71D06BB420019BC8E /* GFContentSortCell.xib in Resources */,
 				FC101BFC1CE36A3F00ADAADF /* GFMeViewController.xib in Resources */,
 				FCEC41EB1CDB9B78007F8F73 /* Assets.xcassets in Resources */,
 				FC20A9A51CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.xib in Resources */,
@@ -579,9 +588,10 @@
 				FC1ACF931CE377D900DE97A6 /* GFConstValue.m in Sources */,
 				FCEC41E31CDB9B78007F8F73 /* AppDelegate.m in Sources */,
 				FCC1C92C1CDDA423001D95C2 /* UIImageView+GFCornerRadius.m in Sources */,
-				FCEC42251CDBA9D2007F8F73 /* GFContentSortViewController.m in Sources */,
+				FCEC42251CDBA9D2007F8F73 /* GFContentSortTableViewController.m in Sources */,
 				FC20A9A41CE4E16500BEAF36 /* GFHomeContentCollectionViewCell.m in Sources */,
 				FC101C051CE36C2500ADAADF /* GFTabBar.m in Sources */,
+				FC1D11B61D06BB420019BC8E /* GFContentSortCell.m in Sources */,
 				FC101BF61CE36A3000ADAADF /* GFMessageViewController.m in Sources */,
 				FC20A9961CE4D90F00BEAF36 /* GFNetworkingConst.m in Sources */,
 				FC20A9A81CE4E50400BEAF36 /* GFCollectionViewFlowLayout.m in Sources */,
@@ -729,7 +739,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/GFPrefixHeader.pch";
 				INFOPLIST_FILE = oneWord/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = goofyy.com.oneWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -743,7 +753,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT)/GFPrefixHeader.pch";
 				INFOPLIST_FILE = oneWord/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = goofyy.com.oneWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";

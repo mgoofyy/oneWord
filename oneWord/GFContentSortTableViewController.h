@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GFContentSortViewController : UIViewController
+@interface GFContentSortTableViewController : UITableViewController
 
 @end
