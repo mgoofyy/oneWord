@@ -10,7 +10,7 @@
 
 @interface GFHTTPManger (GFLogin)
 
-+ (NSURLSessionTask *)login_POST:(NSString *)urlString
++ (NSURLSessionTask *)loginPOST:(NSString *)urlString
                           params:(NSDictionary *)params
                       completion:(void (^)(BOOL success,id userinfo))completion;
 

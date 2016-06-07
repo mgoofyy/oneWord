@@ -8,7 +8,7 @@
 
 #import "GFNetworkingConst.h"
 
-NSString *const APIRootBsseURL = @"http://www.goofyy";
+NSString *const APIRootBsseURL = @"https://cnodejs.org/api/v1";
 
 @implementation GFNetworkingConst
 

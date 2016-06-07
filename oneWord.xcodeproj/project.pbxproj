@@ -18,6 +18,7 @@
 		FC101C081CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC101C071CE36CEB00ADAADF /* UIBarButtonItem+GFBarButtonItem.m */; };
 		FC1ACF8D1CE373A600DE97A6 /* lanuch.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1ACF8C1CE373A600DE97A6 /* lanuch.png */; };
 		FC1ACF931CE377D900DE97A6 /* GFConstValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1ACF921CE377D900DE97A6 /* GFConstValue.m */; };
+		FC1D11AC1D06A9DF0019BC8E /* GFLoginRacTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D11AB1D06A9DF0019BC8E /* GFLoginRacTest.m */; };
 		FC20A9931CE4D64400BEAF36 /* GFHTTPManger.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */; };
 		FC20A9961CE4D90F00BEAF36 /* GFNetworkingConst.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A9951CE4D90F00BEAF36 /* GFNetworkingConst.m */; };
 		FC20A99D1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC20A99C1CE4DE1F00BEAF36 /* GFHomeContentViewModel.m */; };
@@ -79,6 +80,8 @@
 		FC1ACF8C1CE373A600DE97A6 /* lanuch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lanuch.png; sourceTree = "<group>"; };
 		FC1ACF911CE377D900DE97A6 /* GFConstValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFConstValue.h; sourceTree = "<group>"; };
 		FC1ACF921CE377D900DE97A6 /* GFConstValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFConstValue.m; sourceTree = "<group>"; };
+		FC1D11AB1D06A9DF0019BC8E /* GFLoginRacTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFLoginRacTest.m; sourceTree = "<group>"; };
+		FC1D11AD1D06AD780019BC8E /* NetWorkingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkingHeader.h; sourceTree = "<group>"; };
 		FC20A9911CE4D64400BEAF36 /* GFHTTPManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFHTTPManger.h; sourceTree = "<group>"; };
 		FC20A9921CE4D64400BEAF36 /* GFHTTPManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFHTTPManger.m; sourceTree = "<group>"; };
 		FC20A9941CE4D90F00BEAF36 /* GFNetworkingConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFNetworkingConst.h; sourceTree = "<group>"; };
@@ -206,6 +209,7 @@
 				FC8CFCC91CE613E700795D5F /* GFHTTPManger+GFLoginRAC.h */,
 				FC8CFCCA1CE613E700795D5F /* GFHTTPManger+GFLoginRAC.m */,
 				FC1722481D05832000846BCD /* NetWorkingBlock.h */,
+				FC1D11AD1D06AD780019BC8E /* NetWorkingHeader.h */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -300,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				FCEC41F81CDB9B78007F8F73 /* oneWordTests.m */,
+				FC1D11AB1D06A9DF0019BC8E /* GFLoginRacTest.m */,
 				FCEC41FA1CDB9B78007F8F73 /* Info.plist */,
 			);
 			path = oneWordTests;
@@ -596,6 +601,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCEC41F91CDB9B78007F8F73 /* oneWordTests.m in Sources */,
+				FC1D11AC1D06A9DF0019BC8E /* GFLoginRacTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

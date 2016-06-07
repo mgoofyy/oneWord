@@ -46,6 +46,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initView];
+    [[GFHTTPManger rac_login:@"/topics" params:@{}] subscribeNext:^(id x) {
+        NSLog(@"%@",x);
+    }];
     
 }
 

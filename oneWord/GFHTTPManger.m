@@ -22,7 +22,7 @@
     return [APIRootBsseURL stringByAppendingString:urlString];
 }
 
-+ (void)configNetWoringManger {
++ (void)configHttpManger {
     [self manger].responseSerializer = [AFJSONResponseSerializer serializer];
     [self manger].responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"application/json"];
 }
@@ -41,7 +41,7 @@
                 completion:(GFNetCompletionBlock)completion; {
     AFHTTPSessionManager *manager = [GFHTTPManger manger];
     NSURLSessionTask *task =
-    [manager POST:[GFHTTPManger fullUrlString:urlString]
+    [manager GET:[GFHTTPManger fullUrlString:urlString]
        parameters:parameters
          progress:progress success:^(NSURLSessionTask *task, id response)
      {
@@ -88,6 +88,5 @@
     if(autoRun) [task resume];
     return task;
 }
-
 
 @end

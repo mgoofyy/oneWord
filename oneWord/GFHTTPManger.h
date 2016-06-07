@@ -10,6 +10,8 @@
 #import "NetWorkingBlock.h"
 
 @interface GFHTTPManger : NSObject
+
++ (AFHTTPSessionManager *)manger;
 /**
  *  请求头 token
  */
